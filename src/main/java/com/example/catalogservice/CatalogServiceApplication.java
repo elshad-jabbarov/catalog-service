@@ -2,7 +2,9 @@ package com.example.catalogservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
+@ConfigurationPropertiesScan  //load configurations to application context
 @SpringBootApplication
 public class CatalogServiceApplication {
 
